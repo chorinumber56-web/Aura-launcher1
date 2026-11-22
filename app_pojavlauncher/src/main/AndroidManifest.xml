@@ -45,7 +45,7 @@
         android:hasFragileUserData="true"
         android:icon="@mipmap/ic_launcher"
         android:isGame="true"
-        android:label="@string/aerix_app_label"
+        android:label="@string/aura_app_label"
         android:process=":launcher"
         android:resizeableActivity="true"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -68,7 +68,7 @@
             android:label="@string/aerix_app_label"
             android:launchMode="singleTop"
             android:screenOrientation="sensorLandscape"
-            android:theme="@style/Aerix.SplashScreen">
+            android:theme="@style/Aura.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -93,13 +93,13 @@
 
                 <data
                     android:host="auth"
-                    android:scheme="aerix-social" />
+                    android:scheme="aurax-social" />
                 <data
                     android:host="friend"
-                    android:scheme="aerix-social" />
+                    android:scheme="aura-social" />
                 <data
                     android:host="chat"
-                    android:scheme="aerix-social" />
+                    android:scheme="aura-social" />
             </intent-filter>
         </activity>
         <activity
