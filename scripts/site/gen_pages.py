@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generates the Aerix Launcher website as a set of standalone pages.
+"""Generates the Aura Launcher website as a set of standalone pages.
 
 Every page is a complete HTML file that shares docs/styles.css, docs/app.js and docs/assets/, so
 GitHub Pages serves them as-is with no build step. Keeping the shell in one place is what stops the
@@ -93,7 +93,7 @@ RENDERERS = [
 
 FAQ = [
     ("Is it free?",
-     "Yes. Aerix is open source under GPL-3.0, with no ads, no telemetry and no paid tier. Downloads come from GitHub Releases."),
+     "Yes. Aura is open source under GPL-3.0, with no ads, no telemetry and no paid tier. Downloads come from GitHub Releases."),
     ("Do I need a CurseForge API key?",
      "No. The content browser works out of the box: it falls back to a public mirror when no key is configured, and an own key can be set in Settings if you have one."),
     ("Which Minecraft versions work?",
@@ -219,12 +219,12 @@ def shot_tile(name, title, caption, eager=False):
 
 def build_index():
     head_html = head(
-        "Aerix Launcher — Minecraft: Java Edition on Android",
-        "Aerix Launcher brings Minecraft: Java Edition to Android: instances, renderers, accounts, "
+        "Aura Launcher — Minecraft: Java Edition on Android",
+        "Aura Launcher brings Minecraft: Java Edition to Android: instances, renderers, accounts, "
         "skins and a content browser in one launcher. Private by design, updated often, tested on real phones.",
         "index.html",
         extra_meta=f'''<meta property="og:type" content="website">
-<meta property="og:title" content="Aerix Launcher — Minecraft: Java Edition on Android">
+<meta property="og:title" content="Aura launcher — Minecraft: Java Edition on Android">
 <meta property="og:description" content="Instances, renderers, accounts, skins and a content browser in one launcher.">
 <meta property="og:url" content="{SITE}">
 <meta property="og:image" content="{SITE}assets/screenshots/shot-home.jpg">
@@ -547,8 +547,8 @@ def build_install():
           f'<a class="btn btn-discord" href="{DISCORD}" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"></span>Join the Discord</a><a class="btn btn-ghost" href="faq.html">Read the FAQ</a>')}
 </main>
 '''
-    return head("Install — Aerix Launcher",
-                "How to install Aerix Launcher on Android: download the newest APK, allow the install, and create your first instance.",
+    return head("Install — Aura Launcher",
+                "How to install Aura Launcher on Android: download the newest APK, allow the install, and create your first instance.",
                 "install.html") + nav("install.html") + body + FOOTER
 
 
@@ -574,7 +574,7 @@ def build_faq():
           f'<a class="btn btn-ghost" href="screenshots.html">Screenshots</a><a class="btn btn-ghost" href="renderers.html">Renderers</a><a class="btn btn-ghost" href="install.html">Install</a>')}
 </main>
 '''
-    return head("FAQ — Aerix Launcher",
+    return head("FAQ — Auralauncher",
                 "Aerix Launcher questions: is it free, do I need an API key, which Minecraft versions work, updates, controllers and licences.",
                 "faq.html") + nav("faq.html") + body + FOOTER
 
