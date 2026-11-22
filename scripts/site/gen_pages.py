@@ -8,8 +8,8 @@ pages from drifting apart: change the nav here and every page gets it.
 import pathlib
 
 DOCS = pathlib.Path(__file__).resolve().parents[2] / "docs"
-SITE = "https://entitybrian69-bit.github.io/Aerix-launcher/"
-REPO = "https://github.com/entitybrian69-bit/Aerix-launcher"
+SITE = "https://entitybrian69-bit.github.io/Aura-launcher/"
+REPO = "https://github.com/entitybrian69-bit/Aura-launcher"
 # GitHub's own permalink to the newest release's asset of this name: it redirects straight to the
 # file, so the button downloads the APK without a visit to any GitHub page. The publish workflow
 # uploads a copy under exactly these names next to the versioned ones.
