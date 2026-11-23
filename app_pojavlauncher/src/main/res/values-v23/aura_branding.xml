@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android's minimum supported API is 23, so this label consistently overrides every build flavor. -->
+    <string name="aura_app_label">Aura Launcher</string>
+    <string name="aerix_app_label">Aura Launcher</string>
+    <string name="app_name">Aura Launcher</string>
+    <string name="app_short_name">Aura</string>
+    <string name="aerix_brand" translatable="false">Aura</string>
+    <string name="aerix_nav_back_home">Back to Aura home</string>
+    <string name="aerix_ingame_menu_title">Aura Menu</string>
+    <string name="aerix_accounts_title">Accounts</string>
+</resources>
