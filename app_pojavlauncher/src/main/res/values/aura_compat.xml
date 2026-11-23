@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compatibility aliases used by the shared Android manifest. -->
+    <string name="aura_app_label">Aerix Launcher</string>
+
+    <style name="Aura.SplashScreen" parent="Aerix.SplashScreen" />
+</resources>
